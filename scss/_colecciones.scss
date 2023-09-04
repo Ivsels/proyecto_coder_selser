@@ -1,0 +1,41 @@
+.contenedorGeneralColecciones {
+    padding-top: 120px !important;
+}
+
+.posicionTexto {
+    top: 5%;
+    left: 5%;
+    max-width: calc(85vw);
+}
+
+.imagenColecciones {
+    background-color: $keyColor;
+    overflow: hidden;
+
+    img {
+        opacity: 1 !important;
+        transition: 0.3s;
+
+        &:hover {
+            opacity: 0.4 !important;
+            transition: 0.8s;
+            transform: scale(1.1);
+        }
+    }
+}
+
+#contenedor1:hover>#textoContendor1 {
+    visibility: visible !important;
+}
+
+#contenedor2:hover>#textoContendor2 {
+    visibility: visible !important;
+}
+
+#contenedor3:hover>#textoContendor3 {
+    visibility: visible !important;
+}
+
+#contenedor4:hover>#textoContendor4 {
+    visibility: visible !important;
+}

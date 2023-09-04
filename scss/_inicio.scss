@@ -1,0 +1,102 @@
+.visibleCelular {
+    visibility: visible;
+}
+
+.visiblePc {
+    visibility: hidden;
+    display: none;
+}
+
+.contenidoInicio {
+    margin-top: 110px;
+}
+
+.caribeInicio {
+    img {
+        width: 100%;
+    }
+
+    video {
+        object-fit: initial;
+        width: 70%;
+        height: auto;
+    }
+}
+
+.imagenCentral {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    p {
+        font-style: normal;
+        font-size: 0.9em;
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+    }
+}
+
+.videoRemera {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagenesIndex {
+    /*Contenedor de los divs*/
+    width: 100%;
+}
+
+.imagenIndex {
+    /* Cada uno de los 3 divs*/
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    max-height: 750px;
+    height: calc(100vh);
+    background-color: $keyColor;
+
+    img {
+        flex-shrink: 0;
+        opacity: 1 !important;
+        transition: 0.3s;
+        filter: grayscale(100%);
+        width: auto;
+
+        &:hover {
+            opacity: 0.5 !important;
+            transition: 0.8s;
+            transform: scale(1.1);
+            filter: brightness(20%), grayscale(100%);
+        }
+    }
+}
+
+.imageCarousel {
+    filter: grayscale(100%);
+    opacity: 0.5;
+}
+
+.carousel-caption {
+    transform: translateY(-70%);
+
+    h5 {
+        font-weight: bold;
+        font-size: 2.5em;
+    }
+    
+    p {
+        font-size: 1.2em;
+    }
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    width: 15vw;
+    height: 15vw;
+}
