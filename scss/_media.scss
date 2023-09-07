@@ -1,0 +1,287 @@
+@media (min-width: 401px) {
+    /* Pantallas de celulares grandes y tables*/
+
+    .alambre1 {
+        height: 220px;
+        width: 220px;
+    }
+
+    .menu {
+        li {
+            padding-top: 10px;
+
+            a {
+                padding: 10px;
+            }
+        }
+    }
+
+    /* STYLE DEL INDEX */
+
+    .contenidoInicio {
+        margin-top: 100px;
+    }
+
+    .caribeInicio {
+        img {
+            width: 400px;
+        }
+
+        video {
+            width: 100%;
+        }
+    }
+
+    .imagenCentral {
+        p {
+            font-size: 0.8em;
+        }
+    }
+
+    .visibleCelular {
+        visibility: hidden;
+        display: none;
+    }
+
+    .visiblePc {
+        visibility: visible !important;
+        display: block;
+    }
+
+    .imagenesIndex {
+        /*Contenedor de los divs*/
+        width: 100%;
+    }
+
+    .imagenIndex {
+        /* Cada uno de los 3 divs*/
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        height: calc(80vh);
+        background-color: black;
+        max-height: calc(40vw);
+
+        img {
+            flex-shrink: 0;
+            opacity: 1 !important;
+            transition: 0.3s;
+            filter: grayscale(100%);
+            width: auto;
+            height: 100%;
+
+            &:hover {
+                opacity: 0.5 !important;
+                transition: 0.8s;
+                transform: scale(1.1);
+                filter: brightness(20%), grayscale(100%);
+            }
+        }
+    }
+
+    /* STYLE COLECCIONES*/
+
+    .posicionTexto {
+        top: 25%;
+        left: 5%;
+        max-width: calc(85vw);
+    }
+
+    /* STYLE NOSOTROS */
+
+    /* STYLE DE CONTACTO */
+
+    /* STYLE DEL FOOTER */
+
+    .footer {
+        p {
+            font-size: 1.2em;
+        }
+    }
+
+    .telMail {
+        p {
+            font-size: 1em;
+        }
+    }
+
+    .logoFooter {
+        align-items: center;
+    }
+
+    .iconosFooter {
+        p {
+            font-size: 1em;
+        }
+    }
+}
+
+@media (min-width: 576px) {
+
+    /* Acomoda mejor la tienda en pantallas que ganan ancho (responsive) */
+    .cardTienda {
+        img {
+            min-width: 35vw;
+            max-height: calc(50vw)
+        }
+    }
+}
+
+@media (min-width: 767px) {
+
+    /* Tables */
+    .footer {
+        div {
+            align-items: normal;
+        }
+    }
+
+    .logoFooter {
+        margin-left: auto;
+        padding-bottom: 0px;
+    }
+
+    .caribeInicio {
+        video {
+            object-fit: initial;
+            width: 70%;
+            height: auto;
+        }
+    }
+
+    .imagenCentral {
+        p {
+            font-size: 0.9em;
+        }
+    }
+
+    .textoAlMedio {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+    }
+
+    /* STYLE DE LA TIENDA*/
+
+    .cardTienda {
+        img {
+            min-width: 20vw;
+            max-height: calc(25vw)
+        }
+    }
+
+    /* STYLE COLECCIONES*/
+
+    .imagenColecciones {
+        background-color: initial;
+        overflow: hidden;
+        width: 100%;
+        display: flex;
+        margin-top: 15px !important;
+
+        img {
+            opacity: 1 !important;
+            transition: 0.3s;
+            position: initial;
+            max-width: 50vw;
+
+            &:hover {
+                opacity: 1 !important;
+                transform: scale(1);
+            }
+        }
+
+        p,
+        h2 {
+            /* Adecua el texto de cada foto en tamaño, color y ubicacion*/
+            color: black;
+            position: initial;
+            font-size: 1em;
+        }
+
+        h2 {
+            font-size: 1.4em;
+        }
+    }
+
+    .posicionTexto {
+        visibility: visible !important;
+        max-width: 40vw !important;
+        top: 20%;
+        left: 5%;
+        position: normal !important;
+    }
+
+    .imageIzq {
+        margin-right: auto !important;
+    }
+
+    .imageDer {
+        margin-left: auto !important;
+    }
+
+    .textDer {
+        margin-left: 50vw;
+    }
+
+    .contenidoContacto {
+        p {
+            margin-left: 30vw;
+            margin-right: 30vw;
+            font-size: 1.1em;
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    /* PC y otras */
+
+    /* Cambia Menu del Nav de vertical a horizontal */
+    .menu {
+        display: inline-block;
+        margin-right: 600px;
+    }
+}
+
+@media (min-width: 1100px) {
+
+    /* PC y otras */
+    .footer {
+        div {
+            align-items: normal;
+        }
+    }
+
+    .logoFooter {
+        margin-left: auto;
+        padding-bottom: 0px;
+    }
+
+    .caribeInicio {
+        video {
+            object-fit: initial;
+            width: 50%;
+            height: auto;
+        }
+    }
+
+    .imagenCentral {
+        p {
+            font-size: 1.1em;
+        }
+    }
+
+    .imagenColecciones {
+
+        p,
+        h2 {
+            font-size: 1.2em;
+        }
+
+        h2 {
+            font-size: 1.7em;
+        }
+    }
+}
