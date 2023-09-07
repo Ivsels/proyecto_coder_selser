@@ -136,17 +136,17 @@ h2 {
 
 .logoFooter {
   /*display: inline-block;*/
+  filter: invert(99%) sepia(98%) saturate(20%) hue-rotate(314deg) brightness(104%) contrast(100%);
   width: 72px;
   height: 71px;
-  filter: invert(99%) sepia(98%) saturate(20%) hue-rotate(314deg) brightness(104%) contrast(100%);
   padding-bottom: 10px;
 }
 
 .divIconos img {
-  margin-top: 5px;
   filter: invert(99%) sepia(98%) saturate(20%) hue-rotate(314deg) brightness(104%) contrast(100%);
   width: 40px;
   height: 40px;
+  margin-top: 5px;
 }
 .divIconos img:hover {
   filter: invert(60%) sepia(88%) saturate(536%) hue-rotate(347deg) brightness(103%) contrast(91%);

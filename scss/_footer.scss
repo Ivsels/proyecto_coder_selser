@@ -40,23 +40,17 @@
 
 .logoFooter {
     /*display: inline-block;*/
-    width: 72px;
-    height: 71px;
-    filter: invert(99%) sepia(98%) saturate(20%) hue-rotate(314deg) brightness(104%) contrast(100%);
+    @include iconoFooter(99%,98%,20%,314deg,104%,100%,72px,71px);
     padding-bottom: 10px;
 }
 
 .divIconos {
     img {
+        @include iconoFooter(99%,98%,20%,314deg,104%,100%,40px,40px);
         margin-top: 5px;
-        filter: invert(99%) sepia(98%) saturate(20%) hue-rotate(314deg) brightness(104%) contrast(100%);
-        width: 40px;
-        height: 40px;
 
         &:hover {
-            filter: invert(60%) sepia(88%) saturate(536%) hue-rotate(347deg) brightness(103%) contrast(91%);
-            width: 40px;
-            height: 40px;
+            @include iconoFooter(60%,88%,536%,347deg,103%,91%,40px,40px);
         }
     }
 }
