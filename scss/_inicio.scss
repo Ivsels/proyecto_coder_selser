@@ -50,7 +50,7 @@
     overflow: hidden;
     max-height: 750px;
     height: calc(100vh);
-    background-color: $keyColor;
+    background-color: map-get($map: $colores, $key: keyColor);
 
     img {
         flex-shrink: 0;

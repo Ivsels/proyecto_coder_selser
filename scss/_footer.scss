@@ -1,9 +1,9 @@
 .footer {
-    background-color: $keyColor;
+    background-color: map-get($map: $colores, $key: keyColor);
     font-weight: lighter;
 
     p {
-        color: $white;
+        color: map-get($map: $colores, $key: colorWhite);
         font-size: 1.4em;
     }
 

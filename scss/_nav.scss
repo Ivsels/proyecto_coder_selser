@@ -5,7 +5,7 @@
     position: fixed;
     display: block;
     width: 100%;
-    box-shadow: 3px 0px 5px black;
+    box-shadow: 3px 0px 5px map-get($map: $colores, $key: colorBlack);
 }
 
 .logoNav {
@@ -41,29 +41,29 @@
             transition: 0s;
 
             &:link {
-                color: $keyColor;
+                color: map-get($map: $colores, $key: keyColor);
             }
 
             &:visited {
-                color: $keyColor;
+                color: map-get($map: $colores, $key: keyColor);
             }
 
             &:hover {
-                color: $mainColor;
-                border-bottom: 5px $mainColor solid;
+                color: map-get($map: $colores, $key: mainColor);
+                border-bottom: 5px map-get($map: $colores, $key: mainColor) solid;
             }
 
             &:active {
-                color: $mainColor;
-                border-bottom: 5px $mainColor solid;
+                color: map-get($map: $colores, $key: mainColor);
+                border-bottom: 5px map-get($map: $colores, $key: mainColor) solid;
             }
         }
     }
 }
 
 .botonAqui {
-    color: $mainColor !important;
-    border-bottom: 5px $mainColor solid !important;
+    color: map-get($map: $colores, $key: mainColor) !important;
+    border-bottom: 5px map-get($map: $colores, $key: mainColor) solid !important;
 }
 
 .elementoMenu {

@@ -9,7 +9,7 @@
 }
 
 .imagenColecciones {
-    background-color: $keyColor;
+    background-color: map-get($map: $colores, $key: keyColor);
     overflow: hidden;
 
     img {

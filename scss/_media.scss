@@ -58,7 +58,7 @@
         @include flexbox(column,center,start);
         overflow: hidden;
         height: calc(80vh);
-        background-color: black;
+        background-color: map-get($map: $colores, $key: colorBlack);
         max-height: calc(40vw);
 
         img {
@@ -193,7 +193,7 @@
         p,
         h2 {
             /* Adecua el texto de cada foto en tamaño, color y ubicacion*/
-            color: black;
+            color: map-get($map: $colores, $key: keyColor);
             position: initial;
             font-size: 1em;
         }

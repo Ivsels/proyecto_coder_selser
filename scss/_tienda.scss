@@ -40,9 +40,9 @@
     a {
         @include flexbox(column,initial,center);
         border-radius: 30px;
-        background-color: $mainColor;
-        border: 4px solid $mainColorDark;
-        color: $white;
+        background-color: map-get($map: $colores, $key: mainColor);
+        border: 4px solid map-get($map: $colores, $key: mainColorDark);
+        color: map-get($map: $colores, $key: colorWhite);
         font-size: 1.5em;
         font-weight: bold;
         padding: 10px;
@@ -50,7 +50,7 @@
         text-decoration: none;
 
         &:hover {
-            background-color: $mainColorDark;
+            background-color: map-get($map: $colores, $key: mainColorDark);
             transition: 0.3s;
         }
     }

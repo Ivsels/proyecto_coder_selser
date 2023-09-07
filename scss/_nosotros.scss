@@ -4,7 +4,7 @@
 
     h2 {
         font-size: 2em;
-        color: $mainColor;
+        color: map-get($map: $colores, $key: mainColor);
     }
     
     p {
