@@ -24,10 +24,7 @@
 }
 
 .imagenCentral {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include flexbox(column,center,center);
 
     p {
         font-style: normal;
@@ -39,10 +36,7 @@
 }
 
 .videoRemera {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include flexbox(column,center,center);
 }
 
 .imagenesIndex {
@@ -52,11 +46,8 @@
 
 .imagenIndex {
     /* Cada uno de los 3 divs*/
+    @include flexbox(row,center,start);
     overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-    align-items: center;
     max-height: 750px;
     height: calc(100vh);
     background-color: $keyColor;

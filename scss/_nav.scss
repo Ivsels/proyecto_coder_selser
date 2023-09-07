@@ -25,10 +25,8 @@
 }
 
 .menu {
-    display: flex;
+    @include flexbox(column, initial, center);
     list-style: none;
-    justify-content: center;
-    flex-direction: column;
 
     li {
         font-weight: bold;
@@ -76,21 +74,3 @@
     margin: 20px;
     border: none;
 }
-/*
-@media (min-width: 401px) { 
-
-    .alambre1 {
-        height: 220px;
-        width: 220px;
-    }
-
-    .menu li {
-        padding-top: 10px;
-    }
-
-    .menu li a {
-        padding: 10px;
-    }
-}
-
-*/

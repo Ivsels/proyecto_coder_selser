@@ -1,8 +1,5 @@
 .contenidoContacto {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    @include flexbox(column,center,space-between);
     padding-top: 120px;
 
     h1 {

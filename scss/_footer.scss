@@ -13,10 +13,7 @@
 }
 
 .telMail {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    align-content: center;
+    @include flexbox(column,center,space-around);
 
     img {
         display: inline-block;
@@ -34,17 +31,11 @@
 
 
 .telefono {
-    display: block;
-    align-content: center;
-    display: flex;
-    flex-direction: row;
+    @include flexbox(row,center,initial);
 }
 
 .mail {
-    display: block;
-    align-content: center;
-    display: flex;
-    flex-direction: row;
+    @include flexbox(row,center,initial);
 }
 
 .logoFooter {

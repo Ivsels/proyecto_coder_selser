@@ -9,10 +9,7 @@
 
 .cardTienda {
     /* Card */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    @include flexbox(column,center,space-between);
     margin-bottom: 15px !important;
 
     img {
@@ -41,9 +38,7 @@
     }
 
     a {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        @include flexbox(column,initial,center);
         border-radius: 30px;
         background-color: $mainColor;
         border: 4px solid $mainColorDark;
