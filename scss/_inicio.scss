@@ -24,7 +24,7 @@
 }
 
 .imagenCentral {
-    @include flexbox(column,center,center);
+    @include flexbox(column, center, center);
 
     p {
         font-style: normal;
@@ -36,7 +36,7 @@
 }
 
 .videoRemera {
-    @include flexbox(column,center,center);
+    @include flexbox(column, center, center);
 }
 
 .imagenesIndex {
@@ -46,7 +46,7 @@
 
 .imagenIndex {
     /* Cada uno de los 3 divs*/
-    @include flexbox(row,center,start);
+    @include flexbox(row, center, start);
     overflow: hidden;
     max-height: 750px;
     height: calc(100vh);
@@ -80,7 +80,7 @@
         font-weight: bold;
         font-size: 2.5em;
     }
-    
+
     p {
         font-size: 1.2em;
     }

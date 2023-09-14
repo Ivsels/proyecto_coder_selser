@@ -1,13 +1,13 @@
 // extends
 
-@mixin flexbox($dire,$align,$justify){
+@mixin flexbox($dire, $align, $justify) {
     display: flex;
     flex-direction: $dire;
     align-items: $align;
     justify-content: $justify;
 }
 
-@mixin iconoFooter($inv, $sepia, $satur, $hue-rot, $brig, $contr, $width, $height){
+@mixin iconoFooter($inv, $sepia, $satur, $hue-rot, $brig, $contr, $width, $height) {
     filter: invert($inv) sepia($sepia) saturate($satur) hue-rotate($hue-rot) brightness($brig) contrast($contr);
     width: $width;
     height: $height;

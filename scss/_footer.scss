@@ -13,7 +13,7 @@
 }
 
 .telMail {
-    @include flexbox(column,center,space-around);
+    @include flexbox(column, center, space-around);
 
     img {
         display: inline-block;
@@ -31,26 +31,26 @@
 
 
 .telefono {
-    @include flexbox(row,center,initial);
+    @include flexbox(row, center, initial);
 }
 
 .mail {
-    @include flexbox(row,center,initial);
+    @include flexbox(row, center, initial);
 }
 
 .logoFooter {
     /*display: inline-block;*/
-    @include iconoFooter(99%,98%,20%,314deg,104%,100%,72px,71px);
+    @include iconoFooter(99%, 98%, 20%, 314deg, 104%, 100%, 72px, 71px);
     padding-bottom: 10px;
 }
 
 .divIconos {
     img {
-        @include iconoFooter(99%,98%,20%,314deg,104%,100%,40px,40px);
+        @include iconoFooter(99%, 98%, 20%, 314deg, 104%, 100%, 40px, 40px);
         margin-top: 5px;
 
         &:hover {
-            @include iconoFooter(60%,88%,536%,347deg,103%,91%,40px,40px);
+            @include iconoFooter(60%, 88%, 536%, 347deg, 103%, 91%, 40px, 40px);
         }
     }
 }

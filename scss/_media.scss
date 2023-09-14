@@ -55,7 +55,7 @@
 
     .imagenIndex {
         /* Cada uno de los 3 divs*/
-        @include flexbox(column,center,start);
+        @include flexbox(column, center, start);
         overflow: hidden;
         height: calc(80vh);
         background-color: map-get($map: $colores, $key: colorBlack);

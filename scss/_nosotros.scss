@@ -1,4 +1,3 @@
-
 .contenidoNosotros {
     padding-top: 120px;
 
@@ -6,15 +5,14 @@
         font-size: 2em;
         color: map-get($map: $colores, $key: mainColor);
     }
-    
+
     p {
         padding: 10px 10vw 10px 10vw;
         font-size: 1.1em;
     }
-    
+
     img {
         max-width: 40vw;
         margin-left: 50vw;
     }
 }
-
