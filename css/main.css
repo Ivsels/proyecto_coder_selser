@@ -284,6 +284,10 @@ h2 {
 .cardTienda h3 {
   padding-top: 5px;
   font-weight: bold;
+  font-size: 1.3em;
+}
+.cardTienda h4 {
+  text-transform: uppercase;
 }
 .cardTienda h5 {
   padding-top: 5px;
@@ -397,6 +401,11 @@ h2 {
   width: 300px;
   resize: none;
 }
+.formContacto li input:hover,
+.formContacto li textarea:hover {
+  border-bottom: 2px #ff8c00 solid;
+  transition: 0.5s;
+}
 .formContacto li textarea {
   height: 150px;
 }
@@ -413,6 +422,10 @@ h2 {
   color: rgba(255, 255, 255, 0.9607843137);
   font-size: 25px;
   font-weight: bold;
+}
+.botonContacto:hover {
+  background-color: #ff8c00;
+  transition: 0.5s;
 }
 
 @media (min-width: 401px) {

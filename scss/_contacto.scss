@@ -28,6 +28,11 @@
             border-bottom: 2px map-get($map: $colores, $key: mainColor) solid;
             width: 300px;
             resize: none;
+
+            &:hover{
+                border-bottom: 2px map-get($map: $colores, $key: mainColorDark) solid;
+                transition: 0.5s;
+            }
         }
 
         textarea {
@@ -49,4 +54,9 @@
     color: map-get($map: $colores, $key: colorWhite);
     font-size: 25px;
     font-weight: bold;
+
+    &:hover{
+        background-color: map-get($map: $colores, $key: mainColorDark);
+        transition: 0.5s;
+    }
 }
