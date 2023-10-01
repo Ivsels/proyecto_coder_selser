@@ -15,9 +15,8 @@
     img {
         opacity: 0.5;
         min-width: 65vw;
-
         max-height: calc(85vw);
-
+        
         &:hover {
             opacity: 1;
             transition: 0.3s;

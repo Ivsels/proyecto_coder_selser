@@ -4,26 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Actitud Caribe - Nosotros</title>
-    <link rel="icon" type="image/x-icon" href="../img/logo.svg">
+    <title>Actitud Caribe - Error 404</title>
+    <link rel="icon" type="image/x-icon" href="./img/logo.svg">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="./css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;700&display=swap" rel="stylesheet">
     <meta name="description"
-        content="¿Queres contactarnos? ¿Tenes dudas, consultas, sugerencias, comentarios?.. Completa el formulario y te contestaremos en menos de 24 hs.">
-    <meta name="keywords" content="Actitud, Caribe, Contacto, Sugerencias, Dudas, Preguntas, Consultas">
+        content="Ups!.. parece que algo de rompió. Esto no pasa seguido pero, como dice Tusam: puede fallar.">
+    <meta name="keywords" content="Actitud, Caribe, Error, 404, Caido">
+    <meta name="author" content="Ivan Selser">
+    <meta name="copyright" content="copyright 2023">
 </head>
 
 <body>
     <header class="headerNav">
-        <a href="../index.html"><img class="alambre1 d-block d-sm-block d-lg-block d-md-block" src="../img/alambre1.png"
+        <a href="./index.html"><img class="alambre1 d-block d-sm-block d-lg-block d-md-block" src="./img/alambre1.png"
                 alt="alambre de la esquina superior"></a>
         <div class="navDiv">
             <nav class="navbar navbar-expand-lg navbar-light bg-light ">
-                <a class="navbar-brand" href="../index.html"><img class="logoNav" src="../img/logo.svg"
+                <a class="navbar-brand" href="./index.html"><img class="logoNav" src="./img/logo.svg"
                         alt="logo la barra de navegacion"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent">
@@ -33,19 +35,19 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto menu">
                         <li class="nav-item elementoMenu">
-                            <a class="nav-link" href="../index.html">Inicio</a>
+                            <a class="nav-link" href="#">Inicio</a>
                         </li>
                         <li class="nav-item elementoMenu">
-                            <a class="nav-link " href="./tienda.html">Tienda</a>
+                            <a class="nav-link" href="./pages/tienda.html">Tienda</a>
                         </li>
                         <li class="nav-item elementoMenu">
-                            <a class="nav-link" href="./colecciones.html">Colecciones</a>
+                            <a class="nav-link" href="./pages/colecciones.html">Colecciones</a>
                         </li>
                         <li class="nav-item elementoMenu">
-                            <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                            <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
                         </li>
                         <li class="nav-item elementoMenu">
-                            <a class="nav-link botonAqui" href="#">Contacto</a>
+                            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -53,33 +55,28 @@
         </div>
     </header>
 
-    <section class="contenidoContacto">
-        <h1 class="text-center">Contacto</h1>
-        <p>¡Hola! En Actitud Caribe, estamos comprometidos en brindarte el mejor servicio posible. Si tienes alguna
-            pregunta sobre nuestra tienda, productos o políticas, no dudes en contactarnos utilizando el siguiente
-            formulario de contacto.
-        </p>
-
-        <form action="/my-handling-form-page" method="post">
-            <ul class="formContacto">
-                <li> <input type="text" id="name" name="user_name" placeholder="Nombre: " /> </li>
-                <li> <input type="email" id="mail" name="user_mail" placeholder="Correo Electrónico: " /> </li>
-                <li> <input type="tel" id="tel" name="user_tel" placeholder="Teléfono: " /> </li>
-                <li> <textarea id="msg" name="user_message" placeholder="Indique aqui sus Comentarios: "></textarea>
-                </li>
-                <li><input class="botonContacto" type="submit" value="Enviar Consulta" class="boton" disabled></li>
-            </ul>
-        </form>
-    </section>
+    <main class="error404Page m-0">
+        <section class="row justify-content-center m-0">
+            <div class="error404Image col-12 col-md-6 text-center">
+                <img src="./img/HomeroError.jpg" alt="Imagen de Homero Meme Error 404">
+            </div>
+            <div class="error404Texto col-12 col-md-6 text-center">
+                <h1>DO'H!!!!</h1>
+                <h2>Parece que Homero ha roto algo...</h2>
+                <h3>No te preocupes, podes volver al sitio presionando el boton:</h3>
+                <a href="./index.html">Volver al Inicio</a>
+            </div>
+        </section>
+    </main>
 
     <footer class="footer m-0">
         <div class="row m-0 justify-content-center">
             <div class="bloqueFooter telMail col-12 col-md-4 col-lg">
                 <div class="telefono">
-                    <img src="../img/telefono.png" alt="telefono">
+                    <img src="./img/telefono.png" alt="icono del telefono">
                     <p>+54 11 36526528</p>
                 </div>
-                <div class="mail"><img src="../img/mail.png" alt="mail">
+                <div class="mail"><img src="./img/mail.png" alt="icono de mail">
                     <p>ivancito@gmail.com</p>
                 </div>
             </div>
@@ -88,13 +85,13 @@
                     <div class="col-4 col-sm-4 col-md-2 col-lg-3"></div>
                     <a href="https://www.instagram.com" target="_blank"
                         class="col-1 col-sm-1 col-md-3 col-lg-2 d-flex flex-row justify-content-center"><img
-                            src="../img/instagram-logo.svg" alt="instagram"></a>
+                            src="./img/instagram-logo.svg" alt="instagram"></a>
                     <a href="https://www.github.com" target="_blank"
                         class="col-2 col-sm-2 col-md-2 col-lg-2 d-flex flex-row justify-content-center"><img
-                            src="../img/github-logo.svg" alt="github"></a>
+                            src="./img/github-logo.svg" alt="github"></a>
                     <a href="https://www.linkedin.com" target="_blank"
                         class="col-1 col-sm-1 col-md-3 col-lg-2 d-flex flex-row justify-content-center"><img
-                            src="../img/linkedin-logo.svg" alt="linkedin"></a>
+                            src="./img/linkedin-logo.svg" alt="linkedin"></a>
                     <div class="col-4 col-sm-4 col-md-2 col-lg-3"></div>
                 </div>
                 <div class="align-items-center text-center">
@@ -102,7 +99,7 @@
                 </div>
             </div>
             <div class="col-12 col-md-3 col-lg d-flex flex-column justify-content-center text-end">
-                <img class="logoFooter" src="../img/logo.svg" alt="logo_footer">
+                <img class="logoFooter" src="./img/logo.svg" alt="logo del footer">
             </div>
         </div>
     </footer>
